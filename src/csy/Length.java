@@ -12,5 +12,24 @@ public class Length {
         System.out.println("两个字符可以组合成"+message.concat(message2));
         System.out.println("所有字符转换成小写" + message.toLowerCase());
         System.out.println("所有字符转换成大写" +message.toUpperCase());
+        if (message.equals(message2))
+            System.out.println("true");
+        else
+            System.out.println("false");
+        if (message.equalsIgnoreCase(message2))
+            System.out.println("true");
+        else
+            System.out.println("false");
+        System.out.println(message.compareTo(message2));
+        System.out.println(message.compareToIgnoreCase(message2));
+        if (message.startsWith(message))
+            System.out.println("true");
+        else
+            System.out.println("fasle");
+        if (message.contains(message))
+            System.out.println("true");
+        else
+            System.out.println("false");
+
     }
 }
